@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[35,)" 
+license="MIT"
+[[mods]] 
+modId="aberrantcraft"
+version="${file.jarVersion}" 
+displayName="AberrantCraft"
+logoFile="examplemod.png"
+credits="A mod by Monsoon for his baby <3"
+description='''
+This mod is not to be distributed publicly by any means.
+'''
+
+[[dependencies.aberrantcraft]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aberrantcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
